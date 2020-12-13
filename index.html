@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href = "style.css">
+        
+        <title>
+            YADA Website
+        </title>
+        
+    </head>
+    <body>
+       <div class= "image">
+        <center><img src = "Yada.jpg" width= 500px/></center> 
+       </div>
+          
+       
+        
+
+<div class=  "text1">
+    <center>
+        <p><b>
+            YADA TV Live Stream
+        </b>
+        </p>
+    </center>
+
+</div>
+
+
+
+
+
+
+
+
+<div class = "stream">
+ <!-- Add a placeholder for the Twitch embed -->
+ <div id="twitch-embed"></div>
+
+ <!-- Load the Twitch embed script -->
+ <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+ <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+ <script type="text/javascript">
+   new Twitch.Embed("twitch-embed", {
+     width: 1200,
+     height: 600,
+     channel: "rjandy6142",
+     // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+     parent: ["embed.example.com", "othersite.example.com"]
+   });
+ </script>
+
+
+
+
+
+
+
+
+</div>
+  
+
+    </body>
+</html> 

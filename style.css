@@ -1,0 +1,22 @@
+
+.image img{
+    margin : 20px;
+   
+    
+    border: 5px solid blue;
+    box-shadow: 5px 10px 50px  blueviolet;
+    border-radius: 50px;
+    background-color: coral;
+}
+
+.stream{
+    margin-top: 30px;
+    justify-content:center ;
+    border: 5px solid blue;
+    
+}
+.text1{
+    margin-top: 30px;
+    color: purple;
+    font-size: 40px;
+}
